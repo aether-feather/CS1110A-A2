@@ -1,4 +1,4 @@
-# Simple Calculator by Rahael Joseph
+# Simple Calculator by Rahael Joseph in Visual Studio Code
 
 # Every number entered is converted to a float for ease of calculation.
 
@@ -39,4 +39,5 @@ while True:
     # Ends the loop (and program)
     elif operation == 'Exit':
         print('Thanks for stopping by :> \n')
+
         break
