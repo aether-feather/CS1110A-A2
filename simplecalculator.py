@@ -5,6 +5,7 @@
 # Note: A while-true loop executes the code nested underneath forever until the value of True changes
 # or the 'break' command is used
 while True:
+    # Asks the user for the operation (or if they want to exit)
     operation = input('Addition, Subtraction, Multiplication, Division, or Exit (case sensitive)? ')
 
     # Addition
@@ -41,3 +42,4 @@ while True:
         print('Thanks for stopping by :> \n')
 
         break
+
