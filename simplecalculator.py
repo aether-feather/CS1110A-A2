@@ -1,4 +1,4 @@
-# Simple Calculator by Rahael Joseph in Visual Studio Code
+# Simple Calculator by Rahael Joseph
 
 # Every number entered is converted to a float for ease of calculation.
 
@@ -42,4 +42,5 @@ while True:
         print('Thanks for stopping by :> \n')
 
         break
+
 
