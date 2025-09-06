@@ -1,6 +1,6 @@
 # Family Dictionary by Rahael Joseph
 
-# Functions make the program more readable and important parts of your code reusable; you must define them before the main block of your program
+# Note: Functions make the program more readable and important parts of your code reusable; you must define them before the main block of your program
 # This function creates and returns a list that stores the birthdate and address to represent each member
 def member(birthdate, address):
     member = [birthdate, address]
@@ -34,7 +34,7 @@ while True:
 
      # Removing a family member
     if operation == 2:
-        # 'not' is a boolean that checks if the dictionary 'family_dict' is empty (returns true if empty, false if not empty)
+        # Note: 'not' is a boolean that checks if the dictionary 'family_dict' is empty (returns true if empty, false if not empty)
         if not family_dict: 
             print('No entries to remove.\n')
         else:
@@ -49,4 +49,5 @@ while True:
 
     # Breaks the loop
     if operation == 3:
+
         break
